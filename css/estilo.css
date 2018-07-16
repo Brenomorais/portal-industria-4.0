@@ -31,16 +31,19 @@ div.divisao {
 div.divisao h1 {
     font-family: Verdana, serif;
     font-size: 40px;
+    color: crimson;
 }
 
 div.divisao h2 {
     font-size: 20px;
     font-style: italic;
     margin-top: -3%;
+    color: royalblue;
 }
 
 div.divisao p {
     text-align: justify;
+    font-size: 18px;
 }
 
 div.divisao div.box {
@@ -53,4 +56,84 @@ div.divisao div.box {
     margin-left: 14px;
     border-radius: 105px;
     cursor: pointer;
+}
+
+div.divisao div.box img,
+div {
+    border-radius: 105px;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+}
+
+div.divisao div.box1 div {
+    padding-top: 130px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 0;
+}
+
+div.divisao div.box2 div {
+    padding-top: 130px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 0;
+}
+
+div.divisao div.box3 div {
+    padding-top: 130px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 0;
+}
+
+div.divisao div.box4 div {
+    padding-top: 130px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 0;
+}
+
+div.divisao div.efeito1 div {
+    color: white;
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+div.divisao div.efeito1 div:hover {
+    opacity: 1;
+}
+
+div.divisao div.efeito2 div {
+    color: red;
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+div.divisao div.efeito2 div:hover {
+    opacity: 1;
+}
+
+div.divisao div.efeito3 div {
+    color: white;
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+div.divisao div.efeito3 div:hover {
+    opacity: 1;
+}
+
+div.divisao div.efeito4 div {
+    color: red;
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+div.divisao div.efeito4 div:hover {
+    opacity: 1;
 }
