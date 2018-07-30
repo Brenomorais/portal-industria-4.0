@@ -62,6 +62,7 @@ function fraseDia() {
     message[6] = "A simplicidade é o último grau  de sofisticação. Leonardo da Vinci";
     message[7] = "A humidade é a única base sólida de todas as virtudes. Confúcio";
     message[16] = "Se o navio está afundando não espere a água bater em sua bunda para fazer alguma coisa. Desconhecido";
+    message[30] = "Se a unica ferramenta que voce tem é um martelo, pra voce tudo começa a se parecer com um prego. _Maslow";
 
     data = new Date();
     dia = data.getDate();
